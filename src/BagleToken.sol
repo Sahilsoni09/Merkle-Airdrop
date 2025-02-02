@@ -6,7 +6,7 @@ import {Ownable} from "lib/openzepplin-contracts/contracts/access/Ownable.sol";
 
 
 contract BagleToken is ERC20,Ownable {
-    constructor() ERC20("Bagel","BAGEL") Ownable(msg.sender){
+    constructor() ERC20("Bagel","BAGEL") Ownable(){
 
     }
 
